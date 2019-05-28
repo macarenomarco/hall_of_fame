@@ -2,23 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>OMIBC Sal&oacute;n de la Fama</title>
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body id="home">
-
-<div class="header">
-	<div class="pure-menu pure-menu-horizontal">
-		<a class="pure-menu-heading">OMIBC Sal&oacute;n de la Fama</a>
+	<nav class="navbar">
+		<a href="#" class="navbar-brand">OMIBC Sal&oacute;n de la Fama</a>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="column col-9">
+				<table id="resultados" class="table table-bordered">
+					<thead>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<div class="column col-3">
+				<div class="form-group">
+					<span for="olimpiadas">Olimpiada</span>
+					<select class="form-control" id="olimpiadas">
+					</select>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-<div class="content pure-g">
-	<table id="resultados" class="pure-table">
-	</table>
-</div>
-<script src="index.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
